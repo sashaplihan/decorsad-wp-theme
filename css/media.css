@@ -1,0 +1,160 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Extra large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .main-footer .footer-column {
+        height: auto;
+    }
+    .footer-column h3 {
+        text-align: center;
+        width: 100%;
+    }
+    .slider_seeding img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    nav.top_menu {
+        text-align: left;
+    }
+    .slider_seeding img {
+        width: auto;
+        height: auto;
+    }
+    nav ul.nav li.active a, nav ul.nav li a:hover {
+        color: #8DA350;
+    }
+    nav ul.nav > li > a {
+        padding: 0;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .top_line {
+        text-align: center;
+    }
+    .main-footer .footer-column {
+        text-align: center;
+    }
+    .header_content {
+        height: auto;
+    }
+    .top_menu {
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    .phone_wrap {
+        display: none;
+    }
+    .follow_contact {
+        display: block;
+    }
+    .logo_wrap {
+        text-align: center;
+    }
+    .header_content  .social-header {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .nav-toggle {
+        right: 450px;
+        top: 194px;
+    }
+    .section h2 {
+        font-size: 20px;
+    }
+    .service_wrap_item {
+        margin: 0 10% 50px;
+    }
+    .service_item,
+    .taxonomy_item {
+        width: 270px;
+        margin: auto;
+    }
+    .page_useful h2 {
+        text-align: center;
+    }
+    .sidebar_wrap {
+        text-align: center;
+    }
+    .custom_post_page {
+        padding: 40px 5%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .nav-toggle {
+        right: 390px;
+    }
+    .invert a {
+        margin-bottom: 15px;
+    }
+    .service_wrap_item {
+        margin: 0 5% 50px;
+    }
+    .action_title h2 {
+        font-size: 22px;
+    }
+    .slide h2 {
+        font-size: 32px;
+        line-height: 44px;
+        padding-top: 100px;
+    }
+    .slide p {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .section h2 {
+        font-size: 20px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+    .slider_seeding img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
